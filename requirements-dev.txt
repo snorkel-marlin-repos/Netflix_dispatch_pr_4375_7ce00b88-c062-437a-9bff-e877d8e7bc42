@@ -42,8 +42,10 @@ identify==2.5.33
     # via pre-commit
 iniconfig==2.0.0
     # via pytest
-ipython==8.21.0
+ipython==9.6.0
     # via -r requirements-dev.in
+ipython-pygments-lexers==1.1.1
+    # via ipython
 jedi==0.19.1
     # via ipython
 matplotlib-inline==0.1.6
@@ -80,6 +82,7 @@ pygments==2.17.2
     # via
     #   devtools
     #   ipython
+    #   ipython-pygments-lexers
 pytest==7.4.4
     # via -r requirements-dev.in
 python-dateutil==2.8.2
@@ -98,6 +101,8 @@ traitlets==5.14.1
     # via
     #   ipython
     #   matplotlib-inline
+typing-extensions==4.15.0
+    # via ipython
 virtualenv==20.25.0
     # via pre-commit
 vulture==2.11
